@@ -11,15 +11,20 @@
 
 # tour_urls Records
 Syndication.create(name: 'tour_urls.txt', body: "Old Feed")
+sleep(1)
 Syndication.create(name: 'tour_urls.txt', body: "Old Feed")
+sleep(1)
 Syndication.create(name: 'tour_urls.txt', body: "
   poc_wpm|3319723|http://www.planomatic.com/17722\n
   poc_wpm|3319784|http://www.planomatic.com/18796
 ")
+sleep(1)
 
 # tour_slides_descriptions Records
 Syndication.create(name: 'tour_slides_descriptions.txt', body: "Old Feed")
+sleep(1)
 Syndication.create(name: 'tour_slides_descriptions.txt', body: "Old Feed")
+sleep(1)
 Syndication.create(name: 'tour_slides_descriptions.txt', body: "
   poc_wpm|3319723|0|http://photoplan-cache.planomatic.com/tourFiles/17722/photocache/607664.jpg|Stately Home\n
   poc_wpm|3319723|1|http://photoplan-cache.planomatic.com/tourFiles/17722/photocache/605845.jpg|2-Story Entry\n
@@ -54,3 +59,4 @@ Syndication.create(name: 'tour_slides_descriptions.txt', body: "
   poc_wpm|3319784|13|http://photoplan-cache.planomatic.com/tourFiles/18796/photocache/642033.jpg|Fenced Backyard\n
   poc_wpm|3319784|14|http://photoplan-cache.planomatic.com/tourFiles/18796/photocache/642028.jpg|Another Front View
 ")
+sleep(1)
