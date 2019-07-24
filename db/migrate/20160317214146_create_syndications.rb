@@ -1,4 +1,4 @@
-class CreateSyndications < ActiveRecord::Migration
+class CreateSyndications < ActiveRecord::Migration[5.2]
   def change
     create_table :syndications do |t|
       t.string :name
